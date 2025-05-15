@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/src/output.css">
+  <title>Tela para Gráfico</title>
+</head>
+<body class="bg-gradient-to-r from-green-400 via-green-600 to-green-800 min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-white bg-opacity-90 backdrop-blur-md shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-2xl font-extrabold text-green-800">Meu Dashboard</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-green-700 font-semibold hover:text-green-900 transition">Início</a>
+        <a href="cooperados.html" class="text-green-700 font-semibold hover:text-green-900 transition">Relatórios</a>
+        <a href="tela-cadastro.html" class="text-green-700 font-semibold hover:text-green-900 transition">Cadastro</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow flex items-center justify-center p-6">
+    <div class="bg-white bg-opacity-90 backdrop-blur-md rounded-xl shadow-xl max-w-4xl w-full p-8">
+      <h2 class="text-3xl font-extrabold text-green-900 mb-6 text-center">
+        Gráfico de Dados
+      </h2>
+      <canvas id="myChart"></canvas>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white bg-opacity-90 backdrop-blur-md border-t border-green-300 text-green-800 py-4 text-center text-sm">
+    &copy; 2025 Meu Dashboard. Todos os direitos reservados.
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="module" src="../script/dashboard.js"></script>
+</body>
+</html>
+

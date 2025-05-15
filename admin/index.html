@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/output.css" rel="stylesheet">
+    <title>Tela Inicial</title>
+</head>
+
+<body class="flex flex-col min-h-screen">
+    <header class="w-full bg-green-700 p-8">
+        <h1 class="text-4xl text-center font-bold underline text-white">TELA INICIAL</h1>
+        <nav class="flex gap-8 items-center justify-center bg-white rounded-3xl mt-12 p-2">
+            <a href="solicit.html" class="text-2xl font-medium">Solicitações</a>
+            <a href="cooperados.html" class="text-2xl font-medium">Cooperados</a>
+            <a href="tela-cadastro.html" class="text-2xl font-medium">Cadastro</a>
+            <a href="grafico.html" class="text-2xl font-medium">Dashboard</a>
+        </nav>
+    </header>
+
+    <main class="flex-grow h-full">
+        <h1 class="text-4xl font-bold m-8 text-center">Produtos Disponíveis</h1>
+        <ul class="grid grid-cols-4 p-8" data-prods>
+            <!-- Produtos serão listados aqui -->
+        </ul>
+    </main>
+
+    <!-- Footer fixo no fim da página -->
+    <footer class="w-full bg-green-700 text-white py-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-sm">&copy; 2024 Meu Sistema. Todos os direitos reservados.</p>
+            <p class="text-sm">Desenvolvido por Lucas Medina</p>
+        </div>
+    </footer>
+
+    <script type="module" src="../script/produtos.js"></script>
+</body>
+
+</html>
+

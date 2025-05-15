@@ -1,0 +1,108 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Smartphone X",
+      "descricao": "Tela OLED, câmera dupla",
+      "preco": 2999.99,
+      "imagem": "https://dcdn-us.mitiendanube.com/stores/001/669/739/products/prod-61-eb15e34b6d8445d5aa16216066608826-1024-1024.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Notebook Pro",
+      "descricao": "16GB RAM, SSD 512GB",
+      "preco": 5499.99,
+      "imagem": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
+    },
+    {
+      "id": 3,
+      "nome": "Fone Bluetooth",
+      "descricao": "Cancelamento de ruído",
+      "preco": 499.99,
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1140357/fone_bluetooth_auric_tws_ep_tws_200bk_pr_c3tech_3517_2_bba7a3e9fbc9c70badc23421d8cd6e0b.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Smartwatch",
+      "descricao": "Monitoramento cardíaco",
+      "preco": 1299.99,
+      "imagem": "https://m.media-amazon.com/images/I/61Mg536ablL._AC_SX679_.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Teclado Mecânico",
+      "descricao": "Switches azuis, RGB",
+      "preco": 349.99,
+      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/m/c/mcr-bkg-rbw012.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Mouse Gamer",
+      "descricao": "DPI ajustável, RGB",
+      "preco": 199.99,
+      "imagem": "https://m.media-amazon.com/images/I/61bAbuINoXL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Monitor 4K",
+      "descricao": "27 polegadas, HDR",
+      "preco": 1899.99,
+      "imagem": "https://m.media-amazon.com/images/I/51pJ+ROuwkL._AC_SL1000_.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Cadeira Gamer",
+      "descricao": "Ergonômica, ajuste 3D",
+      "preco": 1299.99,
+      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/t/g/tgt-hrtc-bl023.jpg"
+    }
+  ],
+  "solicitacoes": [
+    {
+      "nome": "LUCAS MEDINA BOSSO",
+      "cpf": "44123145890",
+      "email": "lmbosso2008@gmail.com",
+      "endereco": "rua luiz rigatto, 40",
+      "data": "14/05/2025",
+      "id": 1
+    },
+    {
+      "nome": "Pedro Paulo",
+      "cpf": "23544345653",
+      "email": "pedroca@gmail.com",
+      "endereco": "Rua Luiz Rigato, 40",
+      "data": "14/05/2025",
+      "id": 2
+    }
+  ],
+  "cooperados": [
+    {
+      "nome": "Lucas",
+      "cpf": "32131232132",
+      "email": "lmbosso@gmail.com",
+      "endereco": "Rua De Tras",
+      "id": 1
+    },
+    {
+      "nome": "Joao Augusto",
+      "cpf": "32432432423",
+      "email": "aleatorio@gmail.com",
+      "endereco": "Rua Limeira, 40",
+      "id": 2
+    },
+    {
+      "nome": "Junior Silva",
+      "cpf": "22271642009",
+      "email": "junior@gmail.com",
+      "endereco": "Rua exemplo, 90",
+      "id": 3
+    },
+    {
+      "nome": "Fernando Borges",
+      "cpf": "43243243242",
+      "email": "fernando@gmail.com",
+      "endereco": "Rua Majura, 80",
+      "id": 4
+    }
+  ]
+}
